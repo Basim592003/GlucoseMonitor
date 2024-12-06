@@ -184,4 +184,4 @@ def simulate_and_plot_with_plotly(model, env, time_steps=96):
 # Run the simulation and plot with Plotly
 simulate_and_plot_with_plotly(model, env)
 
-# simulate_and_plot1(model, env)
+## simulate_and_plot1(model, env)

@@ -100,4 +100,4 @@ class GlucoseRegulationEnv(gym.Env):
             return 1.0  
         else:
             
-            return -abs(self.glucose - 105) / 10.0
+            return -abs(self.glucose - 105) / 10.0#
