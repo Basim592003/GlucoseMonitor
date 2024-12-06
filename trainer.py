@@ -8,4 +8,4 @@ check_env(env)
 model = PPO("MlpPolicy", env, verbose=1)
 model.learn(total_timesteps=100000)
 
-model.save("ppo_glucose_regulation")
+model.save("ppo_glucose_regulation")#
